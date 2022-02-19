@@ -590,8 +590,8 @@
 						// 해당 이미지 가겨오기
 						var imgSrc = $(this).children("img").attr("src");
 						var imgAlt = $(this).children("img").attr("alt");
-						$(".modalBox .album img").attr("src", imgSrc);
-						$(".modalBox .album img").attr("alt", imgAlt);
+						$(".modalBox img").attr("src", imgSrc);
+						$(".modalBox img").attr("alt", imgAlt);
 						
 						// 해당 이미지 텍스트 가져오기
 						var imgTit =  $(this).children("p").text();
