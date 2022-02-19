@@ -91,13 +91,13 @@
 				color: #fff;
 				z-index: 10;
 			}
-			.track_info {
+			.modal_wrapper #track_info {
 				justify-content: center;
 				width: 400px;
 				border-radius: 0 10px 10px 0;
 				background: #fff;
 			}
-			.album_info {
+			.modal_wrapper #album_info {
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
@@ -106,6 +106,9 @@
 				height: 100%;
 				border-radius: 10px 0 0 10px;
 				background: #000;
+			}
+			.modal_wrapper #album_info li{
+				font : #000;
 			}
 		</style>
 
@@ -185,10 +188,9 @@
 									<button>&times;</button>
 									<div class="modalBox">
 										<div class="modal_wrapper">
-										<div class="album_info">
-										<img src="images/1.SpringUp.jpg" alt="모달된 이미지">
+										<div id="album_info">
 										</div>										
-										<div class="track_info">
+										<div id="track_info">
 											<li>1 OK! 준비완료<br/></li>
 											<li>2 숨바꼭질<br/></li>
 											<li>3 풋사랑<br/></li>
