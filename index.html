@@ -53,30 +53,6 @@
 	</head>
 	<body class="is-preload">
 
-		<script>
-			const body = document.querySelector('body');
-			const modal = document.querySelector('.modal');
-			const btnOpenPopup = document.querySelector('.btn-open-popup');
-	  
-			btnOpenPopup.addEventListener('click', () => {
-			  modal.classList.toggle('show');
-	  
-			  if (modal.classList.contains('show')) {
-				body.style.overflow = 'hidden';
-			  }
-			});
-	  
-			modal.addEventListener('click', (event) => {
-			  if (event.target === modal) {
-				modal.classList.toggle('show');
-	  
-				if (!modal.classList.contains('show')) {
-				  body.style.overflow = 'auto';
-				}
-			  }
-			});
-		  </script>
-
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
 
@@ -142,7 +118,7 @@
 									</header>
 									<a href="#" class="image fit"><img src="images/1.Spring Up.jpg" alt="" /></a>
 									<p>Spring Up</p>
-									<ul class="actions special">
+									
 										<div class="modal"> 
 											<div class="modal_body">Modal</div>
 										</div>
