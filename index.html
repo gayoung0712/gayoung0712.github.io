@@ -63,13 +63,13 @@
 				left: 50%;
 				transform: translate(-50%, -20%);
 				background-color: #ffffff;
-				width: 30%;
-				height: 30%;
+				width: 20%;
+				height: 20%;
 				text-align: center;
 			}
 
 			.modalBox img {
-				width: 100%;
+				width: 90%;
 			}
 
 			.modalBox p {
@@ -77,6 +77,35 @@
 				background-color: #ffffff;
 				font-size: 2rem;
 				padding: .2rem;
+			}
+
+			.modal_wrapper {
+				position: relative;
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				width: 800px;
+				height: 500px;
+				box-shadow: 0 7px 15px rgb(0 0 0 / 10%);
+				border-radius: 10px;
+				background: #fff;
+				color: #fff;
+				z-index: 10;
+			}
+			.track_info {
+				justify-content: center;
+				width: 400px;
+				border-radius: 0 10px 10px 0;
+				background: #fff;
+			}
+			.album_info {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 400px;
+				height: 100%;
+				border-radius: 10px 0 0 10px;
+				background: #000;
 			}
 		</style>
 
@@ -155,18 +184,17 @@
 								<div class="modal">
 									<button>&times;</button>
 									<div class="modalBox">
-										<section class="posts" style="background-color: #ffffff;">
-										<div>
+										<div class="modal_wrapper">
+										<div class="album_info">
 										<img src="images/1.SpringUp.jpg" alt="모달된 이미지">
 										</div>										
-										<div>
-											<h5>1 OK! 준비완료<br/></h5>
-											<h5>2 숨바꼭질<br/></h5>
-											<h5>3 풋사랑<br/></h5>
-											<h5>4 모닝콜<br/></h5>
-											<h5>5 장화 신은 고양이</h5>
+										<div class="track_info">
+											<li>1 OK! 준비완료<br/></li>
+											<li>2 숨바꼭질<br/></li>
+											<li>3 풋사랑<br/></li>
+											<li>4 모닝콜<br/></li>
+											<li>5 장화 신은 고양이</li>
 										</div>
-										</section>
 									</div>
 								</div>
 								</article>
