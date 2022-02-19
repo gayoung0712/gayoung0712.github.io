@@ -84,10 +84,9 @@
 			.modalBox .album img {
 				width: 50%;
 				height : 50%;
-				align-content: center;
 			}
 
-			.modalBox .track ul {
+			.modalBox .track p {
 				color: #000000;
 				background-color: rgb(255, 255, 255);
 				width : 50%;
@@ -178,11 +177,7 @@
 										<img src="images/1.SpringUp.jpg">
 										</div>
 										<div class="track" style="float: right;">
-											<ul>
-												<li style="color: #000000;">
-													1 OK!준비완료
-												</li>
-											</ul>
+											<p>1 OK! 준비완료</p>
 										</div>
 								</div>
 								</article>
@@ -602,8 +597,8 @@
 						$(".modalBox img").attr("alt", imgAlt);
 						
 						// 해당 이미지 텍스트 가져오기
-						var imgTit =  $(this).children("ul").text();
-						$(".modalBox ul").text(imgTit);
+						var imgTit =  $(this).children("p").text();
+						$(".modalBox p").text(imgTit);
 						
 				   // 해당 이미지에 alt값을 가져와 제목으로
 						//$(".modalBox p").text(imgAlt);
