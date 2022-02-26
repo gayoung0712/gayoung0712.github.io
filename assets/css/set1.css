@@ -11,7 +11,8 @@
 }
 
 .grid header > .date {
-	display : inline-block;
+	position: relative;
+		display : inline-block;
 		font-size: 0.8rem;
 		height: 1;
 		margin: 0 0 1rem 0;
@@ -25,8 +26,8 @@
 	overflow: hidden;
 	margin: 10px 1%;
 	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
+	max-width: 320px;
+	max-height: 320px;
 	width: 48%;
 	background: #3085a3;
 	text-align: center;
@@ -94,6 +95,7 @@
 }
 
 
+
 /*---------------*/
 /***** Zoe *****/
 /*---------------*/
@@ -102,7 +104,7 @@ figure.effect-zoe figcaption {
 	top: auto;
 	bottom: 0;
 	padding: 1em;
-	height: 3.75em;
+	height: 1.75em;
 	background: #fff;
 	color: #3c4a50;
 	-webkit-transition: -webkit-transform 0.35s;
@@ -129,14 +131,12 @@ figure.effect-zoe:hover p.icon-links a:focus {
 figure.effect-zoe p.description {
 	position: absolute;
 	bottom: 1em;
-	float : left;
-	padding: 2em 1em 2em 1em;
-	width : 280px;
+	padding: 2em;
 	color: #fff;
 	text-transform: none;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	font-size: 70%;
 	text-align: center;
+	font-size: 70%;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
