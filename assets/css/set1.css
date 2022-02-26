@@ -123,6 +123,12 @@ figure.effect-zoe p.icon-links a {
 	font-size: 1.4em;
 }
 
+figure.effect-zoe p.icons a {
+	float: right;
+	color: #3c4a50;
+	font-size: 1.4em;
+}
+
 figure.effect-zoe:hover p.icon-links a:hover,
 figure.effect-zoe:hover p.icon-links a:focus {
 	color: #252d31;
