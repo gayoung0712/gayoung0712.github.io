@@ -118,13 +118,13 @@ figure.effect-zoe h2 {
 }
 
 figure.effect-zoe p.icon-links a {
-	float: right;
+	float : left;
 	color: #3c4a50;
 	font-size: 1.4em;
 }
 
 figure.effect-zoe p.icon-links a img{
-	float: right;
+	float : right;
 	width:20px;
 	height : 20px;
 	color: #3c4a50;
