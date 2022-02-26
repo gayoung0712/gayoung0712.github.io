@@ -146,7 +146,7 @@ figure.effect-zoe p.description {
 	color: #fff;
 	text-transform: none;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	font-size: 70%;
+	font-size : 14px;
 	text-align: center;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
