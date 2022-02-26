@@ -11,7 +11,8 @@
 }
 
 .grid header > .date {
-		display: block;
+	position: relative;
+		display : inline-block;
 		font-size: 0.8rem;
 		height: 1;
 		margin: 0 0 1rem 0;
