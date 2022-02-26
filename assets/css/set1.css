@@ -131,12 +131,14 @@ figure.effect-zoe:hover p.icon-links a:focus {
 figure.effect-zoe p.description {
 	position: absolute;
 	bottom: 1em;
-	padding: 2em;
+	float : left;
+	padding: 2em 1em 2em 1em;
+	width : 280px;
 	color: #fff;
 	text-transform: none;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	text-align: center;
 	font-size: 70%;
+	text-align: center;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
